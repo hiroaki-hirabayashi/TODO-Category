@@ -31,14 +31,18 @@ extension TODOEntity {
         }
     }
     
-    
     enum Category: Int16 {
-        case priority1st     // Important & Urgent (第1領域）
-        case priority2nd    // Important & Not Urgent (第2領域）
-        case priority3rd    // Not Important & Urgent（第3領域）
-        case priority4th   // Not Important & Not Urgent（第4領域）
+        // Important & Urgent (第1領域）
+        case priority1st
+        // Important & Not Urgent (第2領域）
+        case priority2nd
+        // Not Important & Urgent（第3領域）
+        case priority3rd
+        // Not Important & Not Urgent（第4領域）
+        case priority4th
         
-        func iconString() -> String { // タイトル文字
+        /// タイトル文字
+        func iconString() -> String {
             switch self {
                 case .priority1st:
                     return "優先度1（重要かつ緊急）"
@@ -50,7 +54,9 @@ extension TODOEntity {
                     return "優先度4（重要でも緊急でもない）"
             }
         }
-        func iconImage() -> String { // 画像
+        
+        /// TODOカテゴリー画像
+        func iconImage() -> String {
             switch self {
                 case .priority1st:
                     return "flame"
@@ -62,7 +68,9 @@ extension TODOEntity {
                     return "tv.music.note"
             }
         }
-        func iconColor() -> Color { // 色
+        
+        /// カテゴリーアイコン色
+        func iconColor() -> Color {
             switch self {
                 case .priority1st:
                     return .red
@@ -83,13 +91,13 @@ extension TODOEntity {
     
     
     //
-    static func toDoNumberCount(in managedObjectContext: NSManagedObjectContext,
+    static func todoNumberCount(in managedObjectContext: NSManagedObjectContext,
                                 category: Category) -> Int {
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "ToDoEntity")
-        // 検索 categoryに一致するものを取得して
+        // 検索 categoryに一致するものを取得する
         fetchRequest.predicate = NSPredicate(format: "category == \(category.rawValue)")
         
-        //DB管理オブジェクト（managedObjectContext）のcountメソッドで検索条件に当てはまるデータの件数を取得する
+        // DB管理オブジェクト（managedObjectContext）のcountメソッドで検索条件に当てはまるデータの件数を取得する
         do {
             let count = try managedObjectContext.count(for: fetchRequest)
             return count
