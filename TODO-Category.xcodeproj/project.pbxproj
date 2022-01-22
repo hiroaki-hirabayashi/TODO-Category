@@ -27,6 +27,8 @@
 		F462A9C4279C532C00A0CEC6 /* TODOEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9C3279C532C00A0CEC6 /* TODOEntity.swift */; };
 		F462A9C7279C566100A0CEC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9C6279C566100A0CEC6 /* AppDelegate.swift */; };
 		F462A9C9279C56A700A0CEC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9C8279C56A700A0CEC6 /* SceneDelegate.swift */; };
+		F462A9CC279C6B8A00A0CEC6 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9CB279C6B8A00A0CEC6 /* KeyboardObserver.swift */; };
+		F462A9CE279C6CAB00A0CEC6 /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9CD279C6CAA00A0CEC6 /* CornerRadius.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		F462A9C3279C532C00A0CEC6 /* TODOEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOEntity.swift; sourceTree = "<group>"; };
 		F462A9C6279C566100A0CEC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F462A9C8279C56A700A0CEC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F462A9CB279C6B8A00A0CEC6 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
+		F462A9CD279C6CAA00A0CEC6 /* CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,7 @@
 				F462A989279C486500A0CEC6 /* TODO_CategoryApp.swift */,
 				F462A98B279C486500A0CEC6 /* ContentView.swift */,
 				F462A9C5279C533100A0CEC6 /* Models */,
+				F462A9CA279C5DAD00A0CEC6 /* Views */,
 				F462A9B8279C4C5D00A0CEC6 /* Utils */,
 				F462A98D279C486800A0CEC6 /* Assets.xcassets */,
 				F462A9B9279C4CCC00A0CEC6 /* Color.xcassets */,
@@ -201,6 +206,8 @@
 				F462A9BD279C504100A0CEC6 /* UtilDate.swift */,
 				F462A9BF279C521D00A0CEC6 /* UIApplication.swift */,
 				F462A9C1279C529B00A0CEC6 /* Binding.swift */,
+				F462A9CB279C6B8A00A0CEC6 /* KeyboardObserver.swift */,
+				F462A9CD279C6CAA00A0CEC6 /* CornerRadius.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -211,6 +218,13 @@
 				F462A9C3279C532C00A0CEC6 /* TODOEntity.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F462A9CA279C5DAD00A0CEC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,6 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F462A9CE279C6CAB00A0CEC6 /* CornerRadius.swift in Sources */,
 				F462A993279C486800A0CEC6 /* Persistence.swift in Sources */,
 				F462A9C0279C521D00A0CEC6 /* UIApplication.swift in Sources */,
 				F462A996279C486800A0CEC6 /* TODO_Category.xcdatamodeld in Sources */,
@@ -426,6 +441,7 @@
 				F462A9C9279C56A700A0CEC6 /* SceneDelegate.swift in Sources */,
 				F462A9BC279C4D8000A0CEC6 /* Color.swift in Sources */,
 				F462A9C7279C566100A0CEC6 /* AppDelegate.swift in Sources */,
+				F462A9CC279C6B8A00A0CEC6 /* KeyboardObserver.swift in Sources */,
 				F462A98A279C486500A0CEC6 /* TODO_CategoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
