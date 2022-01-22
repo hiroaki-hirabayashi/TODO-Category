@@ -1,0 +1,6 @@
+framework module Pods_TODO_CategoryTests {
+  umbrella header "Pods-TODO-CategoryTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
