@@ -21,6 +21,7 @@
 		F462A9AC279C486900A0CEC6 /* TODO_CategoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9AB279C486900A0CEC6 /* TODO_CategoryUITestsLaunchTests.swift */; };
 		F462A9BA279C4CCD00A0CEC6 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F462A9B9279C4CCC00A0CEC6 /* Color.xcassets */; };
 		F462A9BC279C4D8000A0CEC6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9BB279C4D8000A0CEC6 /* Color.swift */; };
+		F462A9BE279C504100A0CEC6 /* UtilDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9BD279C504100A0CEC6 /* UtilDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		F462A9AB279C486900A0CEC6 /* TODO_CategoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO_CategoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F462A9B9279C4CCC00A0CEC6 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		F462A9BB279C4D8000A0CEC6 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F462A9BD279C504100A0CEC6 /* UtilDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				F462A9BB279C4D8000A0CEC6 /* Color.swift */,
+				F462A9BD279C504100A0CEC6 /* UtilDate.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 				F462A993279C486800A0CEC6 /* Persistence.swift in Sources */,
 				F462A996279C486800A0CEC6 /* TODO_Category.xcdatamodeld in Sources */,
 				F462A98C279C486500A0CEC6 /* ContentView.swift in Sources */,
+				F462A9BE279C504100A0CEC6 /* UtilDate.swift in Sources */,
 				F462A9BC279C4D8000A0CEC6 /* Color.swift in Sources */,
 				F462A98A279C486500A0CEC6 /* TODO_CategoryApp.swift in Sources */,
 			);
