@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import TODO_Category
+//@testable import TODO_Category
 
 class TODO_CategoryTests: XCTestCase {
 

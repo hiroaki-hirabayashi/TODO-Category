@@ -1,0 +1,6 @@
+framework module Pods_TODO_Category_TODO_CategoryUITests {
+  umbrella header "Pods-TODO-Category-TODO-CategoryUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
