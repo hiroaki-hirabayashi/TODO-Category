@@ -29,6 +29,16 @@
 		F462A9C9279C56A700A0CEC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9C8279C56A700A0CEC6 /* SceneDelegate.swift */; };
 		F462A9CC279C6B8A00A0CEC6 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9CB279C6B8A00A0CEC6 /* KeyboardObserver.swift */; };
 		F462A9CE279C6CAB00A0CEC6 /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9CD279C6CAA00A0CEC6 /* CornerRadius.swift */; };
+		F462A9D0279C6E8600A0CEC6 /* TodayTODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9CF279C6E8600A0CEC6 /* TodayTODO.swift */; };
+		F462A9D2279C6F7E00A0CEC6 /* TODODetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9D1279C6F7E00A0CEC6 /* TODODetailRow.swift */; };
+		F462A9D5279C720A00A0CEC6 /* CategoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9D4279C720A00A0CEC6 /* CategoryImage.swift */; };
+		F462A9D7279C734500A0CEC6 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9D6279C734500A0CEC6 /* CheckBox.swift */; };
+		F462A9D9279C765500A0CEC6 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9D8279C765500A0CEC6 /* UserView.swift */; };
+		F462A9DB279C780E00A0CEC6 /* TODOList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9DA279C780E00A0CEC6 /* TODOList.swift */; };
+		F462A9DD279C7A0200A0CEC6 /* EditTODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9DC279C7A0200A0CEC6 /* EditTODO.swift */; };
+		F462A9DF279C7CC000A0CEC6 /* QuickNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9DE279C7CC000A0CEC6 /* QuickNewTask.swift */; };
+		F462A9E1279C80D400A0CEC6 /* NewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9E0279C80D400A0CEC6 /* NewTask.swift */; };
+		F462A9E3279C839800A0CEC6 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462A9E2279C839700A0CEC6 /* CategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +90,16 @@
 		F462A9C8279C56A700A0CEC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F462A9CB279C6B8A00A0CEC6 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		F462A9CD279C6CAA00A0CEC6 /* CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
+		F462A9CF279C6E8600A0CEC6 /* TodayTODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTODO.swift; sourceTree = "<group>"; };
+		F462A9D1279C6F7E00A0CEC6 /* TODODetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODODetailRow.swift; sourceTree = "<group>"; };
+		F462A9D4279C720A00A0CEC6 /* CategoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImage.swift; sourceTree = "<group>"; };
+		F462A9D6279C734500A0CEC6 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		F462A9D8279C765500A0CEC6 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		F462A9DA279C780E00A0CEC6 /* TODOList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOList.swift; sourceTree = "<group>"; };
+		F462A9DC279C7A0200A0CEC6 /* EditTODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTODO.swift; sourceTree = "<group>"; };
+		F462A9DE279C7CC000A0CEC6 /* QuickNewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNewTask.swift; sourceTree = "<group>"; };
+		F462A9E0279C80D400A0CEC6 /* NewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTask.swift; sourceTree = "<group>"; };
+		F462A9E2279C839700A0CEC6 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,8 +243,26 @@
 		F462A9CA279C5DAD00A0CEC6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F462A9D3279C71DC00A0CEC6 /* Common */,
+				F462A9CF279C6E8600A0CEC6 /* TodayTODO.swift */,
+				F462A9D1279C6F7E00A0CEC6 /* TODODetailRow.swift */,
+				F462A9DA279C780E00A0CEC6 /* TODOList.swift */,
+				F462A9E0279C80D400A0CEC6 /* NewTask.swift */,
+				F462A9DC279C7A0200A0CEC6 /* EditTODO.swift */,
+				F462A9DE279C7CC000A0CEC6 /* QuickNewTask.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F462A9D3279C71DC00A0CEC6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F462A9D4279C720A00A0CEC6 /* CategoryImage.swift */,
+				F462A9D6279C734500A0CEC6 /* CheckBox.swift */,
+				F462A9D8279C765500A0CEC6 /* UserView.swift */,
+				F462A9E2279C839700A0CEC6 /* CategoryView.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,18 +469,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				F462A9CE279C6CAB00A0CEC6 /* CornerRadius.swift in Sources */,
+				F462A9DD279C7A0200A0CEC6 /* EditTODO.swift in Sources */,
 				F462A993279C486800A0CEC6 /* Persistence.swift in Sources */,
 				F462A9C0279C521D00A0CEC6 /* UIApplication.swift in Sources */,
 				F462A996279C486800A0CEC6 /* TODO_Category.xcdatamodeld in Sources */,
 				F462A9C2279C529B00A0CEC6 /* Binding.swift in Sources */,
 				F462A98C279C486500A0CEC6 /* ContentView.swift in Sources */,
 				F462A9BE279C504100A0CEC6 /* UtilDate.swift in Sources */,
+				F462A9D9279C765500A0CEC6 /* UserView.swift in Sources */,
+				F462A9D2279C6F7E00A0CEC6 /* TODODetailRow.swift in Sources */,
 				F462A9C4279C532C00A0CEC6 /* TODOEntity.swift in Sources */,
 				F462A9C9279C56A700A0CEC6 /* SceneDelegate.swift in Sources */,
+				F462A9D7279C734500A0CEC6 /* CheckBox.swift in Sources */,
 				F462A9BC279C4D8000A0CEC6 /* Color.swift in Sources */,
+				F462A9DB279C780E00A0CEC6 /* TODOList.swift in Sources */,
+				F462A9E1279C80D400A0CEC6 /* NewTask.swift in Sources */,
 				F462A9C7279C566100A0CEC6 /* AppDelegate.swift in Sources */,
 				F462A9CC279C6B8A00A0CEC6 /* KeyboardObserver.swift in Sources */,
+				F462A9E3279C839800A0CEC6 /* CategoryView.swift in Sources */,
 				F462A98A279C486500A0CEC6 /* TODO_CategoryApp.swift in Sources */,
+				F462A9D0279C6E8600A0CEC6 /* TodayTODO.swift in Sources */,
+				F462A9DF279C7CC000A0CEC6 /* QuickNewTask.swift in Sources */,
+				F462A9D5279C720A00A0CEC6 /* CategoryImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

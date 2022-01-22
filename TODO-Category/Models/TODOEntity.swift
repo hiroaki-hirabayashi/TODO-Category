@@ -93,7 +93,7 @@ extension TODOEntity {
     //
     static func todoNumberCount(in managedObjectContext: NSManagedObjectContext,
                                 category: Category) -> Int {
-        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "ToDoEntity")
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "TODOEntity")
         // 検索 categoryに一致するものを取得する
         fetchRequest.predicate = NSPredicate(format: "category == \(category.rawValue)")
         
